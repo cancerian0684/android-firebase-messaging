@@ -1,4 +1,4 @@
-package com.shunya.fcmandroid;
+package com.shunya.fcmandroid.fcm;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

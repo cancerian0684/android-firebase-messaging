@@ -13,9 +13,9 @@ import android.util.Log;
 
 import com.google.gson.Gson;
 import com.shunya.fcmandroid.MainActivity;
-import com.shunya.fcmandroid.NotificationID;
 import com.shunya.fcmandroid.R;
 import com.shunya.fcmandroid.fcm.FcmCommand;
+import com.shunya.fcmandroid.fcm.NotificationID;
 
 import static com.shunya.fcmandroid.LogUtils.LOGI;
 import static com.shunya.fcmandroid.LogUtils.makeLogTag;
