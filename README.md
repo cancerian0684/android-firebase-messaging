@@ -43,3 +43,16 @@ public abstract class FcmCommand {
 }
 ```
 
+The older way of getting token from activity is also deprecated now, instead we should use the below code to get Fcm Token
+
+```java
+FirebaseInstanceId.getInstance().getInstanceId().addOnSuccessListener( MyActivity.this,  new OnSuccessListener<InstanceIdResult>() {
+     @Override
+     public void onSuccess(InstanceIdResult instanceIdResult) {
+           String newToken = instanceIdResult.getToken();
+           Log.e("newToken", newToken);
+
+     }
+ });
+```
+
